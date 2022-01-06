@@ -1,0 +1,1543 @@
+apiVersion: v1
+entries:
+  rancher-monitoring:
+  - apiVersion: v1
+    appVersion: 0.3.1
+    created: "2022-01-06T19:57:36.794344209Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    - condition: webhook-receiver.enabled
+      name: webhook-receiver
+      repository: ""
+      version: 0.0.1
+    description: Provides monitoring for Kubernetes which is maintained by Rancher
+      2.
+    digest: 3a4fc5e67d5ea5a89c09034be8e1b8f1d78b7deb08c979cc8a4af44a6e3722c1
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    kubeVersion: < 1.22.0-0
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.3.1/rancher-monitoring-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-01-06T19:57:36.64791953Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    - condition: webhook-receiver.enabled
+      name: webhook-receiver
+      repository: ""
+      version: 0.0.1
+    description: Provides monitoring for Kubernetes which is maintained by Rancher
+      2.
+    digest: 9c652d97e57a7a56a1cda1dbb672a58e44192aa1eec1a1cd9409025872c994bc
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.3.0/rancher-monitoring-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
+    appVersion: 0.2.2
+    created: "2022-01-06T19:57:36.487640314Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    - condition: webhook-receiver.enabled
+      name: webhook-receiver
+      repository: ""
+      version: 0.0.1
+    description: Provides monitoring for Kubernetes which is maintained by Rancher
+      2.
+    digest: 00466d38795301f6ee91171fb1d414410cb1628fbca18ed53181470e375d82be
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.2.2/rancher-monitoring-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v1
+    appVersion: 0.2.1
+    created: "2022-01-06T19:57:36.319975838Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    - condition: webhook-receiver.enabled
+      name: webhook-receiver
+      repository: ""
+      version: 0.0.1
+    description: Provides monitoring for Kubernetes which is maintained by Rancher
+      2.
+    digest: 2e94d156aaef344b6a4446b87a65797d5ac2cc1487d230024b1d7f76d1b97a3c
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.2.1/rancher-monitoring-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v1
+    appVersion: 0.2.0
+    created: "2022-01-06T19:57:36.166009086Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    - condition: webhook-receiver.enabled
+      name: webhook-receiver
+      repository: ""
+      version: 0.0.1
+    description: Provides monitoring for Kubernetes which is maintained by Rancher
+      2.
+    digest: 667cb87dd9e952e529932a4276d3dea919fdc26b333f2dff54cf606830cd9969
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.2.0/rancher-monitoring-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: 0.1.5
+    created: "2022-01-06T19:57:35.997638347Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    - condition: webhook-receiver.enabled
+      name: webhook-receiver
+      repository: ""
+      version: 0.0.1
+    description: Provides monitoring for Kubernetes which is maintained by Rancher
+      2.
+    digest: fc49d5e917e0410baa86ecda93aa4627b63f78e8519b47bde943166b6e490391
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    kubeVersion: < 1.22.0-0
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.1.5/rancher-monitoring-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    appVersion: 0.1.4
+    created: "2022-01-06T19:57:35.854575968Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    - condition: webhook-receiver.enabled
+      name: webhook-receiver
+      repository: ""
+      version: 0.0.1
+    description: Provides monitoring for Kubernetes which is maintained by Rancher
+      2.
+    digest: 3b918f0dded1b8af20e8d307d93918715207fe19964993fa3e1f8bf0841561a4
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.1.4/rancher-monitoring-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    appVersion: 0.1.3
+    created: "2022-01-06T19:57:35.684597886Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    - condition: webhook-receiver.enabled
+      name: webhook-receiver
+      repository: ""
+      version: 0.0.1
+    description: Provides monitoring for Kubernetes which is maintained by Rancher
+      2.
+    digest: d44d8ca327cb35f86619de4174988e8161e3ecb4456372c27d3c891537b525b7
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.1.3/rancher-monitoring-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
+    appVersion: 0.1.2
+    created: "2022-01-06T19:57:35.489324544Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    - condition: webhook-receiver.enabled
+      name: webhook-receiver
+      repository: ""
+      version: 0.0.1
+    description: Provides monitoring for Kubernetes which is maintained by Rancher
+      2.
+    digest: a303a8e39221921c999a0d4d5bb69ad7e1a1911b95afbd0418baef5582397e97
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.1.2/rancher-monitoring-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: 0.1.1
+    created: "2022-01-06T19:57:35.329349855Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    description: Provides monitoring for Kubernetes which maintaining by Rancher 2.
+    digest: 72b7b1db3ab20cc517ba9ae5009e9e7883776581a7c0fb2bae83123625723a4d
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.1.1/rancher-monitoring-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-01-06T19:57:35.166081972Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    description: Provides monitoring for Kubernetes which maintaining by Rancher 2.
+    digest: b628728e837f2a90a2f8b19664b136a0955a1c9a0f10c843681ca5b7b63893ee
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.1.0/rancher-monitoring-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.0.7
+    created: "2022-01-06T19:57:35.01625519Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    description: Provides monitoring for Kubernetes which maintaining by Rancher 2.
+    digest: 4eae363122041f83478a6be835677bc07781f8d6363f1607059702f1d57c05b4
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.0.7/rancher-monitoring-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v1
+    appVersion: 0.0.6
+    created: "2022-01-06T19:57:34.903232294Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    description: Provides monitoring for Kubernetes which maintaining by Rancher 2.
+    digest: ad00447ff6f35cd127b7e84e12490bd159f24bc6c1ed2f819d231e4c9e6ed443
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.0.6/rancher-monitoring-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v1
+    appVersion: 0.0.5
+    created: "2022-01-06T19:57:34.733374123Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    description: Provides monitoring for Kubernetes which maintaining by Rancher 2.
+    digest: c904ee971a99edb71e3b8db89f00cccfff9f8728a514e1cc851e14060a55683b
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.0.5/rancher-monitoring-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v1
+    appVersion: 0.0.4
+    created: "2022-01-06T19:57:34.554488044Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node-windows.enabled
+      name: exporter-node-windows
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    - condition: operator-init.enabled
+      name: operator-init
+      repository: ""
+      version: 0.1.0
+    description: Provides monitoring for Kubernetes which maintaining by Rancher 2.
+    digest: 964f3c26935e08fed03c3c7778c05c63da2159c847168ae412cc94d63cf55fa2
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.0.4/rancher-monitoring-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v1
+    appVersion: 0.0.3
+    created: "2022-01-06T19:57:34.412464659Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    - condition: operator.enabled,enabled
+      name: operator
+      repository: ""
+      version: 0.0.2
+    description: Provides monitoring for Kubernetes which maintaining by Rancher 2.
+    digest: 1bdd1eca494717313b2605a0dec6b1bb9cec50e30444cd3ee660f91bc96fd76b
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.0.3/rancher-monitoring-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v1
+    appVersion: 0.0.2
+    created: "2022-01-06T19:57:34.271220943Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    description: Provides monitoring for Kubernetes which maintaining by Rancher 2.
+    digest: 7d8f3dfbda431d44ed41650ac7e5a0404b2ac7b900a09fb8743bb0ea30cbadc2
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.0.2/rancher-monitoring-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v1
+    appVersion: 0.23.2
+    created: "2022-01-06T19:57:34.116544727Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-coredns.enabled
+      name: exporter-coredns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-controller-manager.enabled
+      name: exporter-kube-controller-manager
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-dns.enabled
+      name: exporter-kube-dns
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-etcd.enabled
+      name: exporter-kube-etcd
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-scheduler.enabled
+      name: exporter-kube-scheduler
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kube-state.enabled
+      name: exporter-kube-state
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubelets.enabled
+      name: exporter-kubelets
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-kubernetes.enabled
+      name: exporter-kubernetes
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-node.enabled
+      name: exporter-node
+      repository: ""
+      version: 0.0.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.0.1
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: ""
+      version: 0.0.1
+    - condition: metric-expression-project.enabled
+      name: metric-expression-project
+      repository: ""
+      version: 0.0.1
+    - condition: metric-expression-cluster.enabled
+      name: metric-expression-cluster
+      repository: ""
+      version: 0.0.1
+    - condition: exporter-fluentd.enabled
+      name: exporter-fluentd
+      repository: ""
+      version: 0.0.1
+    description: Provides monitoring for Kubernetes which maintaining by Rancher 2.
+    digest: 42f981e8ff6e9088aabc3ebf2bea66be523d951d0aa04da8fe68798cbeaeaf14
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://coreos.com/sites/default/files/inline-images/Overview-prometheus_0.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: frank@rancher.com
+      name: thxCode
+    name: rancher-monitoring
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://github.com/PureIntegration/system-charts/releases/download/rancher-monitoring-0.0.1/rancher-monitoring-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-01-06T19:57:36.794448318Z"
