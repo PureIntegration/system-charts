@@ -2,7 +2,6 @@ dependencies:
   - name: alertmanager
     version: 0.0.1
     condition: alertmanager.enabled
-    repository: "file://./charts/alertmanager/"
 
   - name: exporter-coredns
     version: 0.0.1
